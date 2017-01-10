@@ -1,3 +1,6 @@
+var albumBucketName = 'BucketName';
+var bucketRegion = 'region';
+var IdentityPoolId = 'id';
 
 AWS.config.update({
   region: bucketRegion,
