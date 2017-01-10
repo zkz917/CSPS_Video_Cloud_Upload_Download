@@ -1,7 +1,8 @@
 var albumBucketName = 'BucketName';
 var bucketRegion = 'region';
 var IdentityPoolId = 'id';
-
+// configuration of the app 
+// to declare the aws key and username 
 AWS.config.update({
   region: bucketRegion,
   credentials: new AWS.CognitoIdentityCredentials({
